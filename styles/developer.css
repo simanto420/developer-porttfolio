@@ -106,3 +106,42 @@ margin-bottom: 30px;
     font-size: 20px;
     color: #474747;
 }
+/* what i do style */
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+    padding: 50px;
+}
+/* .what-i-do .section-description {
+    text-align: center;
+} */
+.skill {
+    background: #FFF8F3;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30PX;
+    text-align: left;
+}
+.skill:hover {
+    background: #FD6E0A;
+}
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill-titel {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description {
+    color: #757575;
+}
+/* resume style */
+.resumi-titel {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+}
