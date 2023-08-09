@@ -38,6 +38,31 @@ nav li {
     color: #ffff;
     background-color: #FD6E0A;
 }
+.download {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+    
+}
+button {
+    position: relative;
+    background: #757575;
+    color: #ffff;
+    width: 140px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+button:hover {
+    background:var(--clr);
+    letter-spacing: .25em;
+    box-shadow: 0 0 65px var(--clr);
+}
 /* banner style */
 .banner {
     margin: 0 100px;
@@ -139,9 +164,28 @@ margin-bottom: 30px;
     color: #757575;
 }
 /* resume style */
-.resumi-titel {
+.resume .section-titel {
     text-align: center;
-    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-content {
+    display: flex;
+    gap: 34px;
+}
+.titel {
+    font-weight: 600;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.sub-titel {
+    font-weight: 500;
     font-size: 20px;
-    margin-top: 50px;
+    color: #757575;
+    margin-bottom: 20px;
 }
